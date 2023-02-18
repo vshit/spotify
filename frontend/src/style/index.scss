@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./variables/variables.scss";
+@import "./components/sideBar.scss";
+
+body {
+    color: var(--grey-color);
+}
+
+.app-content {
+    display: grid;
+    grid-template-columns: 256px 100%;
+}
+
+.main {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: teal;
+    color: white;
+}
