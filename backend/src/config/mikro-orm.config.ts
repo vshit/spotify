@@ -3,7 +3,7 @@ import { User, Name, Track, Playlist, Album } from '../entities';
 
 const options: Options = {
   entities: [User, Name, Track, Playlist, Album],
-  dbName: 'spotify-backend',
+  dbName: 'spotify',
   host: 'localhost',
   user: 'postgres',
   password: 'postgres',
